@@ -32,6 +32,7 @@ namespace ReflectionTestWinform
             catch (FileNotFoundException ex)
             {
                 Console.WriteLine(ex.Message);
+                return;
             }
 
 
